@@ -1,6 +1,6 @@
-# Self-host a Hermes alternative: Kortix, the open-source AI Operating System
+# Self-host a Hermes alternative: Kortix, the open-source CompanyOS
 
-If your team has outgrown Hermes Agent, a personal agent built for one operator, the next step is a platform the whole company owns. Kortix is the open-source AI Operating System: your agents, their skills, your company memory, and every connector in one git repo you own, with the agents working on real cloud computers. You can self-host it for free as one Docker Compose stack.
+If your team has outgrown Hermes Agent, a personal agent built for one operator, the next step is a platform the whole company owns. Kortix is the open-source CompanyOS: your agents, their skills, your company memory, and every connector in one git repo you own, with the agents working on real cloud computers. You can self-host it for free as one Docker Compose stack.
 
 This repo is the working guide to that move. It covers what Hermes is, where its design stops, what Kortix adds, how to run the stack on your own box, and what changes when you migrate.
 
@@ -18,7 +18,7 @@ That shape is the point when one person wants an always-on agent on their own ma
 
 ## What Kortix is
 
-Kortix is the open-source AI Operating System. The agents, their skills, the company memory, the connector configuration, and the triggers are files in one git repo the company owns, versioned and diffable like code. Each session runs on its own isolated cloud computer and branch, and what it produces lands through a change request a person approves. It runs on Kortix Cloud, in your VPC, or on your own on-prem network, and self-host is free. The code is open source: read it, fork it, audit it, at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+Kortix is the open-source CompanyOS. The agents, their skills, the company memory, the connector configuration, and the triggers are files in one git repo the company owns, versioned and diffable like code. Each session runs on its own isolated cloud computer and branch, and what it produces lands through a change request a person approves. It runs on Kortix Cloud, in your VPC, or on your own on-prem network, and self-host is free. The code is open source: read it, fork it, audit it, at [Kortix on GitHub](https://github.com/kortix-ai/suna).
 
 ## How Kortix compares with the agents a team usually evaluates
 
@@ -53,7 +53,7 @@ On a bare Linux box, one command installs Docker, installs the CLI, and starts t
 
 ## What you actually own
 
-Self-hosting puts the whole platform on hardware your team controls. The first run asks six things and no model key, and the stack has no Redis and no separate worker. Any model provider with your own keys, or the ChatGPT plan you already pay for, or sign in with your OpenCode Console account for OpenCode Zen and Go. One isolated sandbox per session. Per-resource permissions for people and agents, with roles, groups, and an audit trail. Approval gates you set, off until you set them. Session work reaches main through a change request, and merge is default-deny for agents.
+Self-hosting puts the whole platform on hardware your team controls. The first run asks six things and no model key, and the stack has no Redis and no separate worker. Any model provider with your own keys, or the ChatGPT plan you already pay for, or sign in with your OpenCode Console account for OpenCode Zen and Go. One isolated sandbox per session. Per-resource permissions for people and agents, with roles, groups, and an audit trail. Session work reaches main through a change request, and merge is default-deny for agents.
 
 ## Where to go next
 
