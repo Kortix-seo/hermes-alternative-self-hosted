@@ -18,7 +18,7 @@ That shape is the point when one person wants an always-on agent on their own ma
 
 ## What Kortix is
 
-Kortix is the open-source CompanyOS. The agents, their skills, the company memory, the connector configuration, and the triggers are files in one git repo the company owns, versioned and diffable like code. Each session runs on its own isolated cloud computer and branch, and what it produces lands through a change request a person approves. It runs on Kortix Cloud, in your VPC, or on your own on-prem network, and self-host is free. The code is open source: read it, fork it, audit it, at [Kortix on GitHub](https://github.com/kortix-ai/suna).
+Kortix is the open-source CompanyOS. The agents, their skills, the company memory, the connector configuration, and the triggers are files in one git repo the company owns, versioned and diffable like code. Each session runs on its own isolated cloud computer and branch, and what it produces lands through a change request a person approves. It runs on Kortix Cloud, in your VPC, or on your own on-prem network, and self-host is free. The code is open source: read it, fork it, audit it, at [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS).
 
 ## How Kortix compares with the agents a team usually evaluates
 
@@ -30,7 +30,7 @@ Kortix is the open-source CompanyOS. The agents, their skills, the company memor
 | OpenWork | MIT core; org control plane source-available. | One person or a sharing team. | Skills and MCP across your tools. |
 | Open WebUI | Yes. | A team that wants chat and knowledge. | A self-hosted chat and RAG workspace. |
 
-Rival details come from each project's own repository, checked October 2026: [Hermes](https://github.com/NousResearch/Hermes-Agent), [OpenClaw](https://github.com/openclaw/openclaw), [OpenWork](https://github.com/different-ai/openwork), and [Open WebUI](https://github.com/open-webui/open-webui). [Kortix on GitHub](https://github.com/kortix-ai/suna) is the source for the Kortix column.
+Rival details come from each project's own repository, checked October 2026: [Hermes](https://github.com/NousResearch/Hermes-Agent), [OpenClaw](https://github.com/openclaw/openclaw), [OpenWork](https://github.com/different-ai/openwork), and [Open WebUI](https://github.com/open-webui/open-webui). [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS) is the source for the Kortix column.
 
 OpenClaw and OpenWork sit closest to Hermes: both are built around one person or one shared install, and OpenWork runs as a desktop app on your own files. Open WebUI is a self-hosted interface for chat, retrieval, and tools, with per-user groups and an optional isolated terminal for agents. It fits a chat and knowledge workspace. Kortix is the platform a company owns when the job is agents that take real actions across a team.
 
